@@ -1,5 +1,5 @@
 data "template_file" "web" {
-  template = file("./terraform/templates/ecs/web.json.tpl")
+  template = file("./simple/templates/ecs/web.json.tpl")
 
   vars = {
     cpu         = var.web_cpu
